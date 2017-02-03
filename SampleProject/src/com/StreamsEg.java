@@ -82,6 +82,7 @@ public class StreamsEg {
       //parallel processing
       count = strings.parallelStream().filter(string -> string.isEmpty()).count();
       System.out.println("Empty Strings: " + count);
+      System.out.println("end of class");
    }
 	
    private static int getCountEmptyStringUsingJava7(List<String> strings){

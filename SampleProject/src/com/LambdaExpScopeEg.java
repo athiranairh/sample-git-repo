@@ -7,6 +7,7 @@ public class LambdaExpScopeEg {
    public static void main(String args[]){
       GreetingService greetService1 = message -> System.out.println(salutation + message);
       greetService1.sayMessage("Mahesh");
+      System.out.println("end of file");
    }
 	
    interface GreetingService {

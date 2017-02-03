@@ -13,6 +13,7 @@ public class MethodRefEg {
       names.add("Ramesh");
       names.add("Naresh");
       names.add("Kalpesh");
+      names.add("Athira");
 		
       names.forEach(System.out::println);
    }

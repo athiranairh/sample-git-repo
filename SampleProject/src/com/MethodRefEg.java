@@ -14,6 +14,7 @@ public class MethodRefEg {
       names.add("Naresh");
       names.add("Kalpesh");
       names.add("Athira");
+      names.add("sample name");
 		
       names.forEach(System.out::println);
    }

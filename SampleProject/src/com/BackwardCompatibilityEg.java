@@ -20,6 +20,7 @@ public class BackwardCompatibilityEg {
       Date currentDate = new Date();
       System.out.println("Current date: " + currentDate);
       System.out.println("arun local date");
+      System.out.println("testing");
 		
       //Get the instant of current date in terms of milliseconds
       Instant now = currentDate.toInstant();

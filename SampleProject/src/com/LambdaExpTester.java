@@ -33,6 +33,7 @@ public class LambdaExpTester {
 		greetService1.sayMessage("Mahesh");
 		greetService2.sayMessage("Suresh");
 		System.out.println("end of file");
+		System.out.println("maddy file end");
 	}
 
 	interface MathOperation {
